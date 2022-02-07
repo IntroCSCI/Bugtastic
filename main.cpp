@@ -25,12 +25,8 @@ int main()
     cout<<"How's highschool going?\n";
   else if( age == 18 )
   {
-    cout<<"Hey!"<<endl;
+    cout<<"Pleased to meet you!\n";
   }
-else
-{
-  cout<<"Pleased to meet you!\n";
-}
 
   return 0;
 }
