@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// This program is a simple intro to C++ example of debugging
 int main()
 {
   int age;
@@ -10,24 +9,21 @@ int main()
 
   cout<<"Hi. What is your first name? "
   cin<<name;
-  cout<<"name, what is the first letter of your last name? ";
+  cout<<name<<", what is the first letter of your last name? ";
   cin>>last initial;
   cout<<"Thanks, "<<name<< <<last initial<<.<<endl;
   cout<<"Please also tell me how old you are: ";
-  cin>>age>>endl;
+  cin>>age;
+  cout<<endl;
 
   if( age < 12 )
   {
     cout<<"Hey kid, how do you like school?\n";
   }
-  if( age < 18 )
-    cout<<"Cool!"endl;
+  else if( age < 18 )
+    cout<<"Cool!\n";
     cout<<"How's highschool going?\n";
   else if( age == 18 )
-  {
-    cout<<"Hey!"<<endl;
-  }
-  else
   {
     cout<<"Pleased to meet you!\n";
   }
