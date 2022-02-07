@@ -23,7 +23,7 @@ int main()
   else if( age < 18 )
     cout<<"Cool!\n";
     cout<<"How's highschool going?\n";
-  else if( age >= 18 )
+  else if( age == 18 )
   {
     cout<<"Pleased to meet you!\n";
   }
