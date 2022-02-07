@@ -5,23 +5,28 @@ int main()
 {
   int age;
   string name;
-  char last initial;
+  //cannot have space in variable name
+  char last_initial;
+//missing ; at the end of cout
+  cout<<"Hi. What is your first name? ";
 
-  cout<<"Hi. What is your first name? "
-  cin<<name;
+  cin>>name;
   cout<<"name, what is the first letter of your last name? ";
-  cin>>last initial;
-  cout<<"Thanks, "<<name<< <<last initial<<.<<endl;
-  cout<<"Please also tell me how old you are: ";
-  cin>>age>>endl;
+  cin>>last_initial;
+  //Missing "" between name, last initial and endl
+  cout<<"Thanks, "<<name<<" "<<last_initial<<"."<<endl;
+  cout<<"Please also tell me how old you are: " << endl;
+  cin>>age;
 
   if( age < 12 )
   {
     cout<<"Hey kid, how do you like school?\n";
   }
-  if( age < 18 )
-    cout<<"Cool!"endl;
+  //missing brackets for if statement
+  if( age < 18 ){
+    cout<<"Cool!"<<endl;
     cout<<"How's highschool going?\n";
+}
   else( age >= 18 );
   {
     cout<<"Pleased to meet you!\n";
