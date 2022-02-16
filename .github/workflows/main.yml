@@ -13,7 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Deps
-      run: sudo apt install -y build-essentials
     - name: Compile
       run: g++ main.cpp -std=c++17 -o Bugtastic
