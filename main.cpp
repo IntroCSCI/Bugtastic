@@ -2,6 +2,7 @@
 #include <string>
 int main()
 {
+  int time;
   int age;
   char name;
   char lastinitial;
