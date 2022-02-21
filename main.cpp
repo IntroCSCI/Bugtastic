@@ -14,7 +14,7 @@ int main()
   cin >> last_initial;
   cout << "Thanks, " << name << " " << last initial << "." <<endl;
   cout<<"Please also tell me how old you are: ";
-  cin>>age>>endl;
+  cin>>age;
 
   if( age < 12 )
   {
